@@ -10,5 +10,5 @@ Commands to run Mpi programs.
 
 Note : For 3rd , 5th and 9th programs we have to link math library
 so commands will altered as,
-gcc -fopenmp <filename.c> -lm
-mpicc <filename.c> -lm
+1) gcc -fopenmp <filename.c> -lm
+2) mpicc <filename.c> -lm
